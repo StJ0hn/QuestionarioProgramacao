@@ -1,48 +1,25 @@
 # Questionário de Programação
 
-Questionário interativo para testar conhecimentos em programação. Desenvolvido como projeto prático de aprendizado em HTML e CSS.
+[Acessar a aplicação em produção](https://questionariodeprogramacao.netlify.app)
 
-**[Acesse o projeto aqui](https://questionariodeprogramacao.netlify.app)**
+Aplicação web interativa desenvolvida para a consolidação de fundamentos de estruturação semântica e marcação web.
 
----
+## Objetivo
+O foco principal deste projeto foi o estudo prático dos elementos estruturais do HTML5 e estilização via CSS3. A implementação priorizou a compreensão do comportamento nativo de formulários no navegador, a coleta de diferentes tipos de dados e a organização hierárquica do DOM.
 
-## Sobre o projeto
+## Tecnologias e Conceitos Aplicados
+* HTML5 (Estruturação Semântica): Utilização de tags como header, main, section, footer, details e summary.
+* CSS3: Estilização nativa em folha de estilo externa.
+* Formulários e Entradas de Dados: Manipulação de múltiplos tipos de inputs (radio, text, password, date, checkbox, file, select) e agrupamento lógico (fieldset, legend).
+* Estruturação de Dados: Organização de informações tabulares (thead, tbody, tfoot).
+* Acessibilidade: Aplicação de boas práticas na estruturação de formulários (tags label, for, abbr).
 
-Questionário com 8 perguntas sobre programação e desenvolvimento web, abordando diferentes tipos de entrada de dados e conceitos fundamentais da área.
+## Como Executar Localmente
 
-## Funcionalidades
-- 8 perguntas com diferentes tipos de input: múltipla escolha, texto, senha, data, checkbox, upload de arquivo e menu suspenso
-- Tabela de pontuação com avaliação de desempenho
-- Seção de respostas com `<details>` e `<summary>`
-- Formulário de feedback com validação básica
-- Imagem de logotipo como recurso visual na pergunta 8
+1. Clone o repositório:
+git clone https://github.com/StJ0hn/QuestionarioProgramacao.git
 
-## Tecnologias
-- HTML5
-- CSS3
-
-## Estrutura do projeto
-```
-QuestionarioProgramacao/
-├── index.html
-├── style.css
-└── assets/
-    └── Java-Logo.png
-```
-
-## Como executar localmente
-
-```bash
-git clone https://github.com/StJ0hn/QuestionarioProgramacao
+2. Acesse a pasta do projeto:
 cd QuestionarioProgramacao
-# Abrir index.html no navegador
-```
 
-## Aprendizados
-
-- Estrutura semântica com HTML5: `header`, `main`, `footer`, `section`, `figure`
-- Diferentes tipos de `input`: radio, text, password, date, checkbox, file
-- Elementos de formulário: `fieldset`, `legend`, `textarea`, `select`
-- Tabelas com `thead`, `tbody`, `tfoot`
-- Elementos interativos: `details`, `summary`
-- Boas práticas de acessibilidade com `label`, `for`, `abbr`
+3. Abra o arquivo `index.html` diretamente em qualquer navegador web de sua preferência.
